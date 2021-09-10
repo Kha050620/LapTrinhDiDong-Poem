@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="8dp"
+    android:padding="20dp"
+    android:layout_margin="5dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+<ImageView
+    android:id="@+id/img_category"
+    android:layout_width="match_parent"
+    android:layout_height="130dp"
+    android:src="@drawable/tholucbat"
+    android:scaleType="centerCrop"/>
+        <TextView
+            android:id="@+id/textview_name"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-condensed"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@android:color/black"
+            android:textSize="16dp"
+            android:padding="6dp"
+            android:text="@string/app_name"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

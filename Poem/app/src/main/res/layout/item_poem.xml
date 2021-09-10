@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+android:id="@+id/poem_item"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:padding="10dp"
+    android:orientation="horizontal"
+    android:background="@color/white">
+
+<com.makeramen.roundedimageview.RoundedImageView
+    android:layout_width="100dp"
+    android:layout_height="75dp"
+    android:src="@drawable/tholucbat"
+    android:id="@+id/img_poem"
+    android:scaleType="centerCrop"
+    app:riv_corner_radius="12dp" />
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginLeft="10dp">
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_title"
+        android:text="Sóng"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/black"
+        android:textSize="28dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_name_author"
+        android:text="Xuân Quỳnh"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/black"
+        android:textSize="18dp"
+        android:textStyle="italic"/>
+    </LinearLayout>
+
+
+</LinearLayout>
